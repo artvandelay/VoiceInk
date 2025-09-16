@@ -1,6 +1,8 @@
 import SwiftUI
 import SwiftData
 
+// Extension to make String conform to Identifiable for SwiftUI sheet usage
+// This may generate warnings in future Swift versions if String gains native Identifiable conformance
 extension String: Identifiable {
     public var id: String { self }
 }
