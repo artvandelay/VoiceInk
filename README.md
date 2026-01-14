@@ -54,6 +54,9 @@ brew install --cask voiceink
 ### Build from Source
 As an open-source project, you can build VoiceInk yourself by following the instructions in [BUILDING.md](BUILDING.md). However, the compiled version includes additional benefits like automatic updates, priority support via Discord and email, and helps fund ongoing development.
 
+#### Custom Build Branch
+This repository includes a `custom-build` branch that contains modifications to disable license requirements and trial limitations, allowing the app to work completely offline without license restrictions. This branch is maintained separately from the main branch and is intended for personal use. For detailed information on the modifications and how to apply them when updating, see [AGENTS.MD](AGENTS.MD).
+
 ## Requirements
 
 - macOS 14.0 or later
